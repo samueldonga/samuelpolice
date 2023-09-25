@@ -1,0 +1,150 @@
+<html>
+<head>
+
+<style>
+*
+{
+scroll-behavior: smooth;
+margin: auto;
+}
+
+body
+{
+background-color: rgb(191, 245, 191);
+
+}
+
+.menu_bar
+{
+
+top: 80%;
+width: 100%;
+height: 8%;
+background-color: blue;
+color: white;
+justify-content: center;
+align-items: space-between;
+border-radius: 40px;
+}
+
+button
+{
+border: dotted 1px yellow;
+top: 5px;
+position: relative;
+background: white;
+border-radius: 40px;
+cursor: pointer;
+}
+
+button:hover
+{
+background:orange;
+width:120px;
+color: white;
+border-radius:50px;
+}
+
+hr
+{
+background-color: blue;
+border-radius: 30px;
+height: 3px;
+}
+
+.footer
+{
+color: black;
+}
+
+#hr1
+{
+background-color: green;
+}
+
+fieldset
+{
+width: 40%;
+background-color: lightblue;
+}
+
+input
+{
+text-align: center;
+color: red;
+}
+
+textarea
+{
+color: red;
+}
+
+
+</style>
+
+<title>Home</title>
+<script type="text/javascript">
+function message()
+{
+	alert("PLEASE SIGN IN INTO YOUR ACCOUNT");
+}
+	</script>
+</head>
+
+<body onload="message()">
+<br>
+<img src ="flag.jpg" width="07%" height="25%" align ="right">
+<center>
+<h1><br><b><font color ="blue">KYANDO POLICE STATION<br><font size ="05">ROAD ACCIDENTS REPORTING SYSTEM</font></font></h1>
+<br>
+<img src ="im17.jpg" width="20%" height="20%" style="border-radius:100%";>
+<br>
+<br>
+<br>
+<div class="menu_bar">
+
+<a href="Home.php"><button>Home page</button></a>
+<a href="Services.php"><button>About us</button></a>
+<a href="display.php"><button>Reported accidents</button></a>
+<a href="Report_now.php"><button>Reporting Form</button></a>
+
+</div>
+</center>
+<br>
+<br>
+<center>
+<div class="content">
+<h1><b><font color ="blue">Please Sign in into your Account to start reporting!!</font></b></h1><br>
+<br>
+<form>
+<fieldset align="center">
+<legend>Reporter's Account:</legend>
+<br>
+<img src ="profile.jpg" width="55" height="50"><br>
+<br>
+<p><font color="blue"><u>Sign in</u></font></p>
+<br>
+User Name: <input type="text" name="NAME" placeholder="Enter your username" required><br>
+<br>
+User Password: <input type="text" name="NAME" placeholder="password" required>
+<br>
+<br>
+</fieldset>
+</form>
+<div class="rfles">
+<a href="display.php"><button>LOGIN</button></a>
+</div>
+<br>
+</div>
+
+<br>
+<br>
+<div class="footer">
+<p>&copy akrozmerinaz ideas</p>
+<hr color ="blue">
+</div>
+<br>
+<br>
+</center>
+</body>
+</html>

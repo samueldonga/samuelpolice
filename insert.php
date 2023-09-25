@@ -1,0 +1,61 @@
+<html> 
+<head>
+    <title>Insertion Successful thax for using our page</title>
+</head>
+
+<body>
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "accident";
+
+$con = mysqli_connect($servername, $username, $password, $dbname);
+
+
+$Location = $_POST['Area'];
+$date = $_POST['date'];
+$time = $_POST['time'];
+$description = $_POST['description'];
+$deaths = $_POST['deaths'];
+$injured = $_POST['injured'];
+
+$filename =$_FILES['evidence']['name'];
+$temp_folder =$_FILES['evidence']['tmp_name'];
+
+$folder = "evidences/" .$filename;
+
+move_uploaded_file($temp_folder,$folder);
+
+$sql_command = "insert into accident_info(Area, date, time, description, evidence, deaths, injured) 
+values('$Location', '$date', '$time', '$description','$folder', $deaths, $injured)";
+mysqli_query($con, $sql_command);
+
+
+$r_name = $_POST['Name'];
+$r_Sex = $_POST['r_Sex'];
+$r_nin = $_POST['nin'];
+$r_email = $_POST['r_email'];
+$r_location = $_POST['r_location'];
+$r_contact = $_POST['r_contact'];
+$w_name = $_POST['w_name'];
+$w_sex = $_POST['w_sex'];
+$w_contact = $_POST['w_contact'];
+
+$insert_command = "insert into reporters_info(Name, r_Sex, nin, r_email, r_location, r_contact, w_name, w_sex, w_contact) 
+values('$r_name','$r_Sex', '$r_nin','$r_email', '$r_location', '$r_contact','$w_name','$w_sex','$w_contact')";
+
+
+mysqli_query($con, $insert_command);
+
+
+include("Report_now.php");
+
+
+?>
+<script type="text/javascript">
+    alert ("Your accident has been successfully reported!!!");
+</script>
+
+</body>
+</html>

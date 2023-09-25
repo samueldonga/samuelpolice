@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+*
+{
+scoll-behaviour:smooth;
+margin:auto;
+
+}
+.title_bar
+{
+width:100%;
+height:8%;
+background-color:pink;
+color:white;
+align-items:space-between;
+}
+
+button
+{
+align-items:right;
+border:solid 1px yellow;
+top:5px;
+position:relative;
+background:white;
+border-radius:40px;
+cursor:pointer;
+}
+</style>
+<title>Accident Reporting System</title>
+<h1><br>KYANDO POLICE STATION<br><font size ="05">ACCIDENTS REPORTING SYSTEM</font></h1>
+</head>
+
+<body>
+<center>
+<br>
+<hr width ="100%">
+<div class = "title_bar">
+
+<a href = "#"><button>Home page</button></a>
+<a href = "#"><button>Reporting Form</button></a>
+<a href = "#"><button>Our Services</button></a>
+<a href = "#"><button>Contact Us</button></a>
+
+</div>
+<hr width ="100%">
