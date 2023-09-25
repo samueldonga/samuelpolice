@@ -1,0 +1,216 @@
+<html>
+<head>
+
+<style>
+*
+{
+scroll-behavior: smooth;
+margin: auto;
+}
+
+body
+{
+background-color: rgb(191, 245, 191);
+}
+
+.menu_bar
+{
+top: 100%;
+width: 75%;
+height: 07%;
+background:green;
+align-items: space-between;
+}
+
+button
+{
+align-items:right;
+border: dotted 1px yellow;
+top: 5px;
+background:orange;
+
+cursor: pointer;
+
+}
+
+button:hover
+{
+background:orange;
+width:120px;
+color: white;
+border-radius:50px;
+}
+
+.content
+{
+position: relative;
+top: 70%;
+width: 75%;
+height: 85%;
+background-color: whitesmoke;
+overflow: scroll;
+}
+
+hr
+{
+background-color: green;
+border-radius: 30px;
+height: 3px;
+}
+
+.footer
+{
+height: 15%;
+color: green;
+}
+
+#hr1
+{
+border-radius: 30px;
+background-color: green;
+height: 3px;
+}
+
+fieldset
+{
+width: 100%;
+background-color: cream;
+}
+
+input
+{
+text-align: center;
+color: red;
+}
+
+textarea
+{
+color: blue;
+}
+.rfles
+{
+
+top:10%;
+
+}
+
+</style>
+
+<title>form</title>
+<script type="text/javascript">
+function message()
+{
+	alert("Quickly Report any road accident found!!!");
+}
+	</script>
+</head>
+
+<body onload="message()">
+
+<center>
+<br>
+<h1><br><font color="green"><b>KYANDO POLICE STATION<br><font size ="04">ROAD ACCIDENTS REPORTING SYSTEM</b></font></font></h1>
+<br>
+<img src ="im16.jpg" height ="25%" width ="17%" style="border-radius:100%";>
+<br>
+<br>
+<br>
+<div class="menu_bar">
+<a href="Home.php"><button>Home page</button></a>
+<a href="Services.php"><button>About us</button></a>
+<a href="display.php"><button>Reported accidents</button></a>
+<a href="Report_now.php"><button>Reporting Form</button></a>
+</div>
+<img src ="da.jpg" height ="35%" width ="33%"> <img src ="sa.jpg" height ="35%" width ="33%"> <img src ="im2.jpg" height ="35%" width ="33%"><br>
+<br>
+<p><font color="green"><b><i>Dear reporter, kindly view the already reported accidents before filling the report<br>This is to help us avoid reapition of reported cases already in the system<br>It will also deta us from the inconviniences unless otherwise, <br>You should be providing more elucidation on certain cases</p>
+<p>Fill the form without fear or favour.<br>And this will help us save Human and other lives because we as the<br> police, shall also make stronger investigations</p>
+</i></b></font>
+<br>
+<p><b>Thanks for easing POLICE work</b></p>
+<br>
+<div class="content">
+<br>
+<br>
+<br>
+<h1><font size ="04">GET STARTED</font></h1>
+<hr width="100%" id="hr1"><br>
+
+<form action="insert.php" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Accident info:</legend>
+<br>
+Location: <input type="text" name="Area" placeholder="Enter location" autofocus><br>
+<br>
+Date:   <input type="date" name="date"><br>
+<br>
+Estimated Time: <input type="time" name="time"><br>
+<br>
+Number of deaths: <input type="number" name="deaths"><br>
+<br>
+Number of injured: <input type="number" name="injured"><br>
+<br>
+<br>
+Provide a brief description about the accident: <textarea name="description" placeholder="Enter your description here......." rows="2" cols="70"></textarea><br>
+<br>
+Please attach a photo/video of the incident: <input type="file" name="evidence"><br>
+<br>
+<br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend>Reporter's info:</legend>
+<br>
+Name: <input type="text" name="Name" placeholder="Enter your name"><br>
+<br>
+Sex: <select name="r_Sex">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+<br>
+<br>
+NIN No: <input type="text" name="nin" placeholder="Enter your NIN No"><br>
+<br>
+Email address: <input type="text" name="r_email" placeholder="Enter your Email" required><br>
+<br>
+Location: <input type="text" name="r_location" placeholder="Enter your Location"><br>
+<br>
+Contact: <input type="text" name="r_contact" placeholder="Enter your phone contact"><br>
+<br>
+<hr width="100%" id="hr1">
+<br>
+<br>
+Witnessed by: <input type="text" name="w_name" placeholder="Witness"><br>
+<br>
+Sex: <select name="w_sex">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+<br>
+<br>
+<br>
+Phone contact: <input type="text" name="w_contact" placeholder="Enter your contact"><br>
+<br>
+</fieldset>
+<br>
+<div class="rfles">
+<input type="reset" name="reset" value="Refresh Form"><br>
+<br>
+<input type="submit" name="submit" value="Submit">
+</div>
+<br>
+</form>
+</div>
+<br>
+<br>
+<div class="footer">
+<p>&copy akrozmerinaz ideas</p>
+</div>
+</center>
+<hr>
+<br>
+</body>
+</html>

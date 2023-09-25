@@ -1,0 +1,127 @@
+<html>
+<head>
+
+<style>
+
+
+body
+{
+background-color:grey;
+}
+
+.menu_bar
+{
+
+top: 80%;
+width: 100%;
+height: 8%;
+background-color: blue;
+color: white;
+justify-content: center;
+align-items: space-between;
+border-radius: 40px;
+}
+
+button
+{
+border: dotted 1px yellow;
+top: 5px;
+position: relative;
+background: white;
+border-radius: 40px;
+cursor: pointer;
+}
+
+button:hover
+{
+background:orange;
+width:120px;
+color: white;
+border-radius:50px;
+}
+
+
+hr
+{
+background-color: black;
+border-radius: 30px;
+height: 3px;
+}
+
+.footer
+{
+color: blue;
+}
+
+</style>
+
+<title>offers</title>
+<script type="text/javascript">
+function message()
+{
+	alert("THANKS FOR TRUSTING KYANDO POLICE STATION BECAUSE 'YOUR LIVES ARE OUR RESPONSIBILITY'");
+}
+	</script>
+</head>
+
+<body onload="message()">
+<center>
+<h1><br>KYANDO POLICE STATION<br><font size ="05">ACCIDENTS REPORTING SYSTEM</font></h1>
+<img src ="flag.jpg" height ="25%" width ="30%" style="border-radius:100%";>
+<br>
+<br>
+<div class="menu_bar">
+<a href="Home.php"><button>Home page</button></a>
+<a href="Services.php"><button>About us</button></a>
+<a href="display.php"><button>Reported accidents</button></a>
+<a href="Report_now.php"><button>Reporting Form</button></a>
+</div>
+</center>
+<img src ="im14.jpg" height ="40%" width ="33%"> <img src ="im19.jpg" height ="40%" width ="33%"> <img src ="im20.jpg" height ="40%" width ="33%"><br>
+<br>
+<h1><b><font color="white">Background</font></h1>
+<font color="black">
+<p>Kyando police accidents reporting system was founded in 2016.<br>
+It was when one of the Board members introduced the idea after discovering<br> african lives become worse
+after one's beloved one was involved in a terrible accident.<br>
+<br>
+How?? Thefty is always involved<br>People around the scene take the properties of the victims before the police arrives</p>
+<p><img src ="mm.jpg" height ="20%" width ="13%" style="border-radius:100%;">Therefore Madam Akello Rosemary the CEO of KYANDO POLICE STATION (KPS)<br> by then came up with an idea 
+of coming up with a Road Accidents Reporting system<br> hoping for the solutions to various problems faced
+after accidents happening.<br> 
+<br>In this, the reporter can also give description of how the accident was caused<br>
+and penalties can be imposed on the causers who tend not to abide by the rules of traffic.</p>
+
+<h2><font color="white">Mission</font></h2>
+<p>"To provide protection services to people involved in accidents plus the affected people around the scene"</p>
+<h1><font color="white">Vision</font></h1>
+<p>"To quickly save people's properties and also rescure those who are still alive"</p>
+<h1><font color="white">Services</font></h1>
+<p>Follow ups on the causes of accident by the use of our simple technelogy.</p>
+<p>Providing protection to the affected people
+Penalising the causers of the accident who tend not abide by the laws by taking them to courts of law
+Hosting the displaced victims
+Alerting government about the poor infrastructures and calling for its help where need be<p>
+</font>
+<h1><font color="white">You can follow us on;</font></h1><b>
+
+<p><img src ="ti.jpg" height ="07%" width ="05%"> +256-703449307/+256-773752079
+ <img src ="twitter.png" height ="07%" width ="05%"> <a href="https://kps.twitter.com.ug"><button>kps.twitter.com.ug</button></a> 
+<img src ="w.jpg" height ="07%" width ="05%"> <a href="https://kps.whatspp.com.ug"><button>kps.whatspp.com.ug</button></a> 
+<img src ="u.jpg" height ="07%" width ="05%"> <a href="https://kps.youtube.com.ug"><button>kps.youtube.com.ug</button></a></p> 
+<p><img src ="envelope.png" height ="07%" width ="05%">  <a href="https://kps@gmail.com.ug"><button>kps@gmail.com.ug</button></a> 
+<img src ="fb.png" height ="07%" width ="05%"> <a href="https://kps.facebook.com.ug"><button>kps.facebook.com.ug</button></a> 
+<img src ="fh.jpg" height ="07%" width ="05%"> <a href="https://kps.skype.com.ug"><button>kps.skype.com.ug</button></a>
+<img src ="s.jpg" height ="07%" width ="05%"> <a href="https://kps.instagram.com.ug"><button>kps.instagram.com.ug</button></a></p> 
+<br>
+<p><img src ="marker.png" height ="07%" width ="05%"><font color="white">Kyando village. Bukatubbe subcounty.Mayuge district.Ug</font></p>
+<br>
+<br>
+<center>
+<div class="footer">
+<p>&copy akrozmerinaz ideas</p>
+</div>
+<hr>
+</center>
+</body>
+</html>
