@@ -1,0 +1,25 @@
+*
+{
+scoll-behaviour:smooth;
+margin:auto;
+
+}
+
+.title_bar
+{
+width:70%;
+height:8%;
+background-color:pink;
+color:white;
+justify-content:center;
+align-items:space-between;
+
+}
+
+button
+{
+border:solid 1px yellow;
+top:5px;
+position:relative;
+background:white;
+}
