@@ -1,0 +1,192 @@
+<html>
+<head>
+
+<style>
+*
+{
+scroll-behavior: smooth;
+margin: auto;
+}
+
+body
+{
+background-color: rgb(191, 245, 191);
+
+}
+
+.menu_bar
+{
+
+top: 80%;
+width: 100%;
+height: 8%;
+background-color: blue;
+color: white;
+justify-content: center;
+align-items: space-between;
+border-radius: 40px;
+}
+
+button
+{
+border: dotted 1px yellow;
+top: 5px;
+position: relative;
+background: white;
+border-radius: 40px;
+cursor: pointer;
+}
+
+button:hover
+{
+background:orange;
+width:120px;
+color: white;
+border-radius:50px;
+}
+
+hr
+{
+background-color: blue;
+border-radius: 30px;
+height: 3px;
+}
+
+.footer
+{
+color: black;
+}
+
+#hr1
+{
+background-color: green;
+}
+
+fieldset
+{
+width: 40%;
+background-color: lightblue;
+}
+
+input
+{
+text-align: center;
+color: red;
+}
+
+textarea
+{
+color: red;
+}
+
+
+</style>
+
+<title>Home</title>
+<script type="text/javascript">
+function message()
+{
+	alert("WELCOME TO KYANDO POLICE ACCIDENTS REPORTING SYSTEM");
+}
+	</script>
+</head>
+
+<body onload="message()">
+<br>
+<img src ="flag.jpg" width="07%" height="25%" align ="right">
+<center>
+<h1><br><b><font color ="blue">KYANDO POLICE STATION<br><font size ="05">ROAD ACCIDENTS REPORTING SYSTEM</font></font></h1>
+<br>
+<img src ="im17.jpg" width="20%" height="20%" style="border-radius:100%";>
+<br>
+<br>
+<br>
+<div class="menu_bar">
+
+<a href="Home.php"><button>Home page</button></a>
+<a href="Services.php"><button>About us</button></a>
+<a href="display.php"><button>Reported accidents</button></a>
+<a href="Report_now.php"><button>Reporting Form</button></a>
+
+</div>
+</center>
+<br>
+<br>
+<center>
+<font color ="blue">
+<p><font size="05" color ="green"><b>Kyando Police:</b></font><br>Brings to you here a marvelous Road accidents reporting system (KPARS) to save our lives<p/>
+<p>This system is so helpfull while giving information about accidents that have happened in various locations</p>
+<p>It will be so much of an advantage if you report to us the various accidents so <br>that we can quickly run and save other people's lives</p>
+</font>
+</center>
+<br>
+<br>
+<marquee direction ="right"><img src ="im1.jpg" height ="40%" width ="33%"> <img src ="wr.jpg" height ="40%" width ="33%"> <img src ="im7.jpg" height ="40%" width ="33%"><img src ="im5.jpg" height ="40%" width ="33%"> <img src ="im6.jpg" height ="40%" width ="33%"> <img src ="im11.jpg" height ="40%" width ="33%"><img src ="im10.jpg" height ="40%" width ="33%"> <img src ="im13.jpg" height ="40%" width ="33%"> <img src ="index.jpg" height ="40%" width ="33%"><img src ="rd.jpg" height ="40%" width ="33%"> <img src ="im13.jpg" height ="40%" width ="33%"> <img src ="oo.jpg" height ="40%" width ="33%"></marquee><br>
+<br>
+<br>
+<center>
+<font color ="green">
+<p>Please make sure you register with us freely in order to get your personal info<br>Feel free to share with us your google account to simply ease the synchronization</p>
+</font>
+</center>
+<br>
+<center>
+<div class="content">
+<h1><b><font color ="blue">Free Registration!!</font></b></h1><br>
+<hr width="50%" id="hr1"><br>
+<br>
+<form action="homeinsert.php" method="post">
+<fieldset align="center">
+<legend>Personals' info:</legend>
+<br>
+<img src ="profile.jpg" width="55" height="50"><br>
+<br>
+<p><font color="blue"><u>Sign Up</u></font></p>
+<br>
+Name: <input type="text" name="NAME" placeholder="Enter your name" required><br>
+<br>
+Sex: <select name="SEX" required>
+<option>male</option>
+<option>female</option>
+<option>other</option>
+</select><br>
+<br>
+<br>
+NIN No: <input type="text" name="NIN" placeholder="Enter your NIN No" required><br>
+<br>
+Email address: <input type="text" name="EMAIL" placeholder="Enter your Email" required><br>
+<br>
+Contact: <input type="text" name="CONTACT" placeholder="Enter your phone contact" required><br>
+<br>
+<hr width="100%" id="hr1">
+<br>
+
+<div class="rfles">
+<input type="reset" name="reset" value="Refresh">
+<input type="submit" name="submit" value="Submit">
+</fieldset>
+</div>
+
+<br>
+</form>
+</div>
+<br>
+<input type ="checkbox"><font color="blue">I agree that i have read the terms and conditions <br>And i will solemnly work hard to save ugandan lives</font>
+<br>
+<br>
+<p><font color="blue">Already have an Account</font></p>
+<a href="login.html"><button>GET STARTED</button></a>
+<br>
+<br>
+</center>
+<br>
+<center>
+<div class="footer">
+<p>&copy akrozmerinaz ideas</p>
+<hr color ="blue">
+</div>
+<br>
+<br>
+</center>
+</body>
+</html>

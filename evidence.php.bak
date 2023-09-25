@@ -1,0 +1,14 @@
+<?php
+include("connect.php");
+
+$filename =$_FILES['evidence']['name'];
+$tmp_name =$_FILES['evidence']['temp'];
+
+$folder = "evidences/" .$filename;
+
+move_uploaded_file($tmp_name,$folder);
+
+$command = "insert into accident_info(evidence)values('$folder')";
+
+mysqli_query($con,$command);
+?>
